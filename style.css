@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Segoe-ui;
+    font-weight: 100; */
+    /* font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    /* background-color: black; */
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+
+   
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.nav-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    border: 1px dotted black;
+    margin-left: 60px;
+    border-radius: 1px;
+}
+
+.nav-img img{
+    height: 25px;
+    /* padding: 1px; */
+}
+
+
+.nav-right a{
+    color: black;
+    font-size: 13px; 
+    text-decoration: none;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left i{
+    margin-left: 40px;
+}
+
+.nav-left p{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.picture{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540);
+    background-size: cover;
+    background-position: center;
+}
+
+.work-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.work-area img{
+    height: 40px;
+}
+
+.work-area a{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(24, 24, 167, 0.864);
+}
+
+.div1{
+    margin-left: 60px;
+}
+
+.gap{
+    margin-left: 20px;
+}
+
+.main{
+    padding: 30px;
+}
+
+.lap-box{
+    height: 70%;
+    width: 25%;
+    border: 2px solid black;
+    margin-left: 40px;
+}
+
+.lap-box button{
+    
+}
+
+.laptop-pic{
+    height: 45%;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-2ahjzMqUuR4AktFRqSuw90UQcEWeRL2R1scLrX4qtA&s);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.laptop-work{
+    height: 70%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.laptop-work h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.laptop-work h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#play{
+    margin-top: 30px;
+}
